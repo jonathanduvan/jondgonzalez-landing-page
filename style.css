@@ -6,6 +6,6 @@ body {
 }
 
 .cover {
-  background-image: url(images/background-geo.jpg);
+  background-image: url(images/background_geo.jpg);
   background-size:cover;
 }
