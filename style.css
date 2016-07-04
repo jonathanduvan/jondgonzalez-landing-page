@@ -3,3 +3,8 @@ body {
   padding: 0;
   font-family: 'Quicksand', sans-serif;
 }
+
+.cover {
+  background-image: url(images/Blue-Geometric-Wallpaper-4.jpg);
+  background-size:cover;
+}
