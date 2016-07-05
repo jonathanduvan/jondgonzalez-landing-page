@@ -5,6 +5,10 @@ body {
   color: white;
 }
 
+div {
+  flex-grow: 1;
+}
+
 .cover {
   list-style: none;
   display: flex;
