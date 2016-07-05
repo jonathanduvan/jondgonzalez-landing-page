@@ -39,6 +39,7 @@ body {
 
 .center-item {
   align-self: center;
+  align-content: center;
 }
 
 .link-columns{
