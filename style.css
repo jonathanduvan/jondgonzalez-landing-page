@@ -30,6 +30,10 @@ h1 {
 
 }
 
+.course-logo {
+  color: white;
+}
+
 .page-links{
   display: flex;
   flex-direction: row;
