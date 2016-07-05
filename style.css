@@ -72,7 +72,7 @@ h1 {
     line-height: 3.749rem;
     padding: 0 22px;
 }
-input.EmailAddress {
+.center-item input {
   display: inline-block;
   font-size: 1.249rem;
   font-weight: 400;
