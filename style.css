@@ -14,13 +14,8 @@ body {
   justify-content: space-around;
   flex-direction: column;
 
-}
 
-.course-logo a {
-  padding: 5px;
-}
-
-.page-links {
+.links {
   list-style: none;
   display:flex;
   flex-flow: row wrap;
@@ -28,7 +23,7 @@ body {
   align-items: flex-start;
 }
 
-.page-links li {
+.links li {
   text-decoration: none;
   display: block;
   padding: 5px;
