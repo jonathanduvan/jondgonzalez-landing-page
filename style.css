@@ -26,7 +26,7 @@ body {
 .page-links li {
   text-decoration: none;
   display: block;
-  padding: 1em;
+  padding: 2px;
 }
 
 .cover .gradient {
