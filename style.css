@@ -16,10 +16,15 @@ body {
 
 }
 
-.cover .page-links {
+.page-links {
+  display:flex;
   align-self: flex-end;
 
 }
 .cover.gradient {
   background:linear-gradient(to bottom,rgba(0,0,0,0) 0,#400080 67%);
+  height: 660px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
