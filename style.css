@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: baseline;
-
+  justify-content: space-between;
 }
 
 .links {
@@ -29,7 +29,6 @@ body {
   flex-flow: row wrap;
   justify-content: flex-end;
   align-items: flex-end;
-  align-self: flex-end;
 }
 
 .links li {
