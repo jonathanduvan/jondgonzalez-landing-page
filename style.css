@@ -62,7 +62,7 @@ body {
   align-items: baseline;
   flex-direction: row;
   justify-content: space-around;
-  bottom: 0;
+  align-self: flex-end;
 }
 
 .contact-options {
@@ -77,9 +77,4 @@ body {
   text-decoration: none;
   display: block;
   padding: 20px;
-}
-
-.cover .gradient {
-  background:linear-gradient(to bottom,rgba(0,0,0,0) 0,#400080 67%);
-  position: absolute;
 }
