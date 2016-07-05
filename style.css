@@ -52,10 +52,6 @@ h1 {
   padding: 5px;
 }
 
-.gradient {
-  display: flex;
-  background: linear-gradient(to bottom,rgba(0,0,0,0), #000);
-}
 .center-item {
   display: flex;
   flex-direction: column;
@@ -64,12 +60,17 @@ h1 {
   flex: 1;
 }
 
+.center-item .bottom-section {
+  background: linear-gradient(to bottom,rgba(0,0,0,0),#2A0F3C)
+
+}
 
 .bottom-section {
   display: flex;
   justify-content: space-around;
   align-content: flex-end;
   flex-direction: column;
+
 }
 
 .link-columns{
