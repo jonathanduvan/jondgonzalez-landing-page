@@ -60,7 +60,6 @@ html, body, .viewport {
   justify-content: space-around;
   align-content: flex-end;
   flex-direction: column;
-  flex: 1;
 }
 
 .link-columns{
