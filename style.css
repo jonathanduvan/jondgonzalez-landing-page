@@ -39,6 +39,7 @@ body {
 }
 
 .link-columns{
+  display: flex;
   align-items: flex-end;
   justify-content: space-around;
 }
