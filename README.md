@@ -7,3 +7,5 @@
   
   I would like to point out the overall design of the landing page, with the use of colors and design to give off this minimalist vibe, along
   with a gentle gradient that fades into the same purple used in the top section of the background.
+
+Layout stages:
