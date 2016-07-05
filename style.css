@@ -109,6 +109,10 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
 }
+@media only screen and (max-width: 640px) .footer-gradient {
+    background-color: #000;
+    border-top: 0;
+}
 
 .contact-options {
   list-style: none;
