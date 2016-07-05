@@ -55,7 +55,6 @@ body {
   align-items: baseline;
   flex-direction: row;
   justify-content: space-around;
-  flex-grow: 1;
 }
 
 .contact-options {
@@ -70,11 +69,6 @@ body {
   text-decoration: none;
   display: block;
   padding: 20px;
-}
-
-.cover .footer-gradient {
-  display: flex;
-  align-items: flex-end;
 }
 
 .cover .gradient {
