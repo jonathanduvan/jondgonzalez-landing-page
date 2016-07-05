@@ -6,10 +6,9 @@ body {
 }
 
 .cover {
-  display: flex;
   background-image: url(images/background_geo.jpg);
   background-size:cover;
-  justify-content: center;
+
 }
 
 .cover .page-links {
