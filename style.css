@@ -30,9 +30,6 @@ h1 {
 
 }
 
-.course-logo a {
-  color: white;
-}
 
 .page-links{
   display: flex;
@@ -110,6 +107,7 @@ h1 {
 
 .footer-gradient {
   display: flex;
+  color: white;
   align-items: baseline;
   flex-direction: row;
   justify-content: space-around;
