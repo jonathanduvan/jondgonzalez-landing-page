@@ -19,8 +19,9 @@ html, body, .viewport {
   flex-flow: row wrap;
   justify-content: space-around;
   flex-direction: column;
-  flex: auto;
+  flex: 1;
   align-content: stretch;
+
 
 }
 
@@ -57,6 +58,7 @@ html, body, .viewport {
   justify-content: space-around;
   align-content: flex-end;
   flex-direction: column;
+  flex: 1;
 }
 
 .link-columns{
@@ -71,8 +73,7 @@ html, body, .viewport {
   align-items: baseline;
   flex-direction: row;
   justify-content: space-around;
-  align-self: flex-end;
-  flex: auto;
+
 }
 
 .contact-options {
