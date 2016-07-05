@@ -16,6 +16,10 @@ body {
 
 }
 
+.page-links{
+  align-items: baseline;
+}
+
 .links {
   list-style: none;
   display:flex;
