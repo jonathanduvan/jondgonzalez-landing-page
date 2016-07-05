@@ -60,6 +60,18 @@ h1 {
   flex: 1;
 }
 
+.center-item .button  {
+  display: inline-block;
+
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid #56B68B;
+    border-radius: 4px;
+    background: #56B68B;
+    color: #FFF;
+    line-height: 3.749rem;
+    padding: 0 22px;
+}
 
 .bottom-section {
   display: flex;
