@@ -20,7 +20,6 @@ html, body, .viewport {
   flex-flow: row wrap;
   justify-content: space-around;
   flex-direction: column;
-  flex: 1;
   align-content: stretch;
 
 
@@ -31,6 +30,7 @@ html, body, .viewport {
   flex-direction: row;
   align-items: baseline;
   justify-content: space-between;
+  flex: 1;
 }
 
 .links {
@@ -52,6 +52,7 @@ html, body, .viewport {
   flex-direction: column;
   align-self: center;
   align-items: center;
+  flex: 1;
 }
 
 .bottom-section {
