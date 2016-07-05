@@ -60,7 +60,7 @@ h1 {
   flex: 1;
 }
 
-.center-item .button  {
+.center-item button  {
   display: inline-block;
 
     font-weight: 700;
