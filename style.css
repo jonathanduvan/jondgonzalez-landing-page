@@ -25,7 +25,7 @@ body {
   flex-direction: row;
 }
 
-.page-links li {
+.links li {
   text-decoration: none;
   display: block;
   padding: 5px;
