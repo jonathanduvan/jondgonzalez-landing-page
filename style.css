@@ -28,6 +28,7 @@ body {
   flex-flow: row wrap;
   justify-content: flex-end;
   align-items: flex-end;
+  align-self: flex-end;
 }
 
 .links li {
