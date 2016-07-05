@@ -107,7 +107,6 @@ h1 {
 
 .footer-gradient {
   display: flex;
-  color: white;
   align-items: baseline;
   flex-direction: row;
   justify-content: space-around;
@@ -122,6 +121,7 @@ h1 {
 .contact-options {
   list-style: none;
   display:flex;
+  color: white;
   flex-flow: row wrap;
   justify-content: flex-end;
   align-items: flex-end;
