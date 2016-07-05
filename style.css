@@ -60,14 +60,16 @@ h1 {
   flex: 1;
 }
 
+.center-item .bottom-section {
+  background: linear-gradient(to bottom,rgba(0,0,0,0),#2A0F3C)
+
+}
+
 .bottom-section {
   display: flex;
   justify-content: space-around;
   align-content: flex-end;
   flex-direction: column;
-
-  border-top: 1px solid rgba(0,0,0,.1);
-  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,#2A0F3C 67%)
 }
 
 .link-columns{
