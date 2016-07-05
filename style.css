@@ -36,6 +36,7 @@ h1 {
 
 .page-links{
   display: flex;
+  color: white;
   flex-direction: row;
   align-items: baseline;
   justify-content: space-between;
