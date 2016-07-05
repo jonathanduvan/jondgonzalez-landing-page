@@ -66,8 +66,7 @@ h1 {
   align-content: flex-end;
   flex-direction: column;
 
-  border-top: 1px solid rgba(255,255,255,.1);
-  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,#000 67%)
+  background: linear-gradient(to bottom,rgb(39, 12, 57) 67%)
 }
 
 .link-columns{
