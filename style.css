@@ -20,6 +20,7 @@ html, body, .viewport {
   justify-content: space-around;
   flex-direction: column;
   flex: auto;
+  align-content: stretch;
 
 }
 
