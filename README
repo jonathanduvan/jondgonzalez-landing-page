@@ -1,6 +1,6 @@
-  Welcome to my landing page! T
+  Welcome to my landing page!
   
-  he structure for the page was made entirely using CSS and HTML, along with only flexboxes. 
+  The structure for the page was made entirely using CSS and HTML, along with only flexboxes. 
   
   I was able to add a background, google font, gradient, icons, and styling for the input text and button.
   However, the design for making it more mobile friendly was unsuccessful, specifically the layout for the link heading sections for smaller screens.
