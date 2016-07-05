@@ -38,6 +38,8 @@ body {
 }
 
 .center-item {
+  display: flex;
+  flex-direction: column;
   align-self: center;
   align-content: center;
 }
