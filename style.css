@@ -16,6 +16,10 @@ h1 {
 
 }
 
+.course-logo a {
+  color: white;
+}
+
 .cover {
   min-height: 100%;
   list-style: none;
