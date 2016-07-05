@@ -11,6 +11,11 @@ html, body, .viewport {
   margin: 0;
 }
 
+h1 {
+  font-weight: bold;
+
+}
+
 .cover {
   min-height: 100%;
   list-style: none;
@@ -60,6 +65,9 @@ html, body, .viewport {
   justify-content: space-around;
   align-content: flex-end;
   flex-direction: column;
+
+  border-top: 1px solid rgba(255,255,255,.1);
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,#000 67%)
 }
 
 .link-columns{
@@ -69,12 +77,15 @@ html, body, .viewport {
   flex: auto;
 }
 
+.link-columns ul {
+    list-style-type: none;
+}
+
 .footer-gradient {
   display: flex;
   align-items: baseline;
   flex-direction: row;
   justify-content: space-around;
-
 }
 
 .contact-options {
