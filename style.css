@@ -44,6 +44,12 @@ body {
   align-items: center;
 }
 
+.bottom-section {
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-end;
+}
+
 .link-columns{
   display: flex;
   align-items: flex-end;
@@ -55,6 +61,7 @@ body {
   align-items: baseline;
   flex-direction: row;
   justify-content: space-around;
+  bottom: 0;
 }
 
 .contact-options {
