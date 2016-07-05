@@ -41,7 +41,7 @@ body {
   display: flex;
   flex-direction: column;
   align-self: center;
-  align-content: center;
+  align-items: center;
 }
 
 .link-columns{
