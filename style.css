@@ -55,6 +55,7 @@ body {
   align-items: baseline;
   flex-direction: row;
   justify-content: space-around;
+  flex-grow: 1;
 }
 
 .contact-options {
