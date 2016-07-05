@@ -12,6 +12,7 @@ html, body, .viewport {
 }
 
 .cover {
+  min-height: 100%;
   list-style: none;
   display: flex;
   background-image: url(images/background_geo.jpg);
