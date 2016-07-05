@@ -37,6 +37,13 @@ body {
 .center-item {
   align-self: center;
 }
+
+.link-columns{
+  align-items: flex-end;
+  justify-content: space-around;
+
+}
+
 .cover .gradient {
   background:linear-gradient(to bottom,rgba(0,0,0,0) 0,#400080 67%);
   position: absolute;
