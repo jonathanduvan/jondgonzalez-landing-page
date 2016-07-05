@@ -48,6 +48,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-content: flex-end;
+  flex-direction: column;
 }
 
 .link-columns{
