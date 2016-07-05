@@ -52,9 +52,9 @@ body {
 
 .footer-gradient {
   display: flex;
-  align-items: flex-end baseline;
+  align-items: baseline;
   flex-direction: row;
-  justify-content: space-between space-around;
+  justify-content: space-around;
 }
 
 .contact-options {
