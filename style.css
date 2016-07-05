@@ -15,6 +15,7 @@ body {
   flex-direction: column;
 
 }
+
 .page-links{
   display: flex;
   align-items: baseline;
@@ -26,7 +27,7 @@ body {
   display:flex;
   flex-flow: row wrap;
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 
 .links li {
