@@ -57,6 +57,14 @@ body {
   justify-content: space-between;
 }
 
+.contact-options {
+  list-style: none;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
 .cover .gradient {
   background:linear-gradient(to bottom,rgba(0,0,0,0) 0,#400080 67%);
   position: absolute;
