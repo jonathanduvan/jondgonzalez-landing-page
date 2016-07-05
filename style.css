@@ -62,7 +62,7 @@ h1 {
 
 .center-item button  {
     display: inline-block;
-
+    font-size: 1.249rem;
     font-weight: 700;
     text-decoration: none;
     border: 1px solid #F3F0F0;
