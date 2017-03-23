@@ -2,44 +2,62 @@
 <html>
 
   <head>
-    <link rel="stylesheet" href="style.css "/>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet" type="text/css">
     <title>jondgonzalez.me</title>
   </head>
 
   <body>
     <div class="cover" id="main">
-      <div class="page-links">
-        <nav class="course-logo">
+        <nav class="top row-container">
           <a href="#">CS52</a>
+          <ul class="row-container" id="myTopnav">
+            <li class="top-link"><a class="top-link" href="#"></a>Product</li>
+            <li class="top-link"><a class="top-link" href="#"></a>Pricing</li>
+            <li class="top-link"><a class="top-link" href="#"></a>Support</li>
+            <li class="top-link"><a class="top-link" href="#"></a>Sign in</li>
+            <li>
+              <label for="menucheckbox" class="menubutton">Menu</label>
+              <input type="checkbox" id="menucheckbox">
+              <nav class="menu">
+                <ul>
+                  <li class="menu_mobile"><label for="menucheckbox">X</label></li>
+                  <li><a href="#"></a>Product</li>
+                  <li><a href="#"></a>Pricing</li>
+                  <li><a href="#"></a>Support</li>
+                  <li><a href="#"></a>Sign in</li>
+                </ul>
+              </nav>
+            </li>
+          </ul>
         </nav>
-        <ul class="links" id="myTopnav">
-          <li><a href="#Product"></a>Product</li>
-          <li><a href="#Pricing"></a>Pricing</li>
-          <li><a href="#Support"></a>Support</li>
-          <li><a href="#SignIn"></a>Sign in</li>
-          <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">&#9776;</a></li>
-        </ul>
-
-      </div>
-
-      <div class="center-item">
+      <div class="content">
         <h1>From <i>markup</i> to <i>startup</i> in 9 weeks!</h1>
 
         <p>CS52, the new fangled webdev class where you'll probably learn something</p>
 
+      <div class="center-item">
 
         <form action="#" method="get">
           <input type="text" class="EmailAddress" placeholder="Email Address">
           <button type="button" onclick="alert('Hello world!')">Create</button>
         </form>
 
-        <p>already a cool kid? let's make a webpage!</p>
+        <p>Already a cool kid? let's make a webpage!</p>
       </div>
+
+      <footer class="gradient">
       <div class="bottom-section">
         <div class="link-columns">
-
+          <input type="checkbox" id="list1">
+          <label for="list1">
+            <div class="head">
+              Link Heading
+              <span class="plus">+</span>
+              <span class="minus">-</span>
+            </div>
           <ul class="link-column-1">
             <li>Link Heading</li>
             <li>link 1</li>
@@ -48,62 +66,73 @@
             <li>link 4</li>
             <li>link 5</li>
           </ul>
-
-          <ul class="link-column-2">
-            <li>Link Heading</li>
-            <li>link 1</li>
-            <li>link 2</li>
-            <li>link 3</li>
-            <li>link 4</li>
-            <li>link 5</li>
-          </ul>
-
-          <ul class="link-column-3">
-            <li>Link Heading</li>
-            <li>link 1</li>
-            <li>link 2</li>
-            <li>link 3</li>
-            <li>link 4</li>
-            <li>link 5</li>
-          </ul>
-
-          <ul class="link-column-4">
-            <li>Link Heading</li>
-            <li>link 1</li>
-            <li>link 2</li>
-            <li>link 3</li>
-            <li>link 4</li>
-            <li>link 5</li>
-          </ul>
-
-        </div>
-
-        <footer class="footer-gradient">
-          <nav class="footer_icon">
-            <a href="#">icon</a>
-          </nav>
-
-          <ul class="contact-options">
-            <li>Contact</li>
-            <li><span class="fa fa-twitter" aria-hidden="true"></span></li>
-            <li><span class="fa fa-facebook-square" aria-hidden="true"></span></li>
-          </ul>
-        </footer>
-
+        </label>
       </div>
-
+      <div class="link-columns">
+        <input type="checkbox" id="list2">
+        <label for="list2">
+          <div class="head">
+            Link Heading
+            <span class="plus">+</span>
+            <span class="minus">-</span>
+          </div>
+        <ul class="link-column-2">
+          <li>Link Heading</li>
+          <li>link 1</li>
+          <li>link 2</li>
+          <li>link 3</li>
+          <li>link 4</li>
+          <li>link 5</li>
+        </ul>
+      </label>
+      </div>
+      <div class="link-columns">
+        <input type="checkbox" id="list3">
+        <label for="list3">
+          <div class="head">
+            Link Heading
+            <span class="plus">+</span>
+            <span class="minus">-</span>
+          </div>
+        <ul class="link-column-3">
+          <li>Link Heading</li>
+          <li>link 1</li>
+          <li>link 2</li>
+          <li>link 3</li>
+          <li>link 4</li>
+          <li>link 5</li>
+        </ul>
+      </label>
+      </div>
+      <div class="link-columns">
+        <input type="checkbox" id="list4">
+        <label for="list4">
+          <div class="head">
+            Link Heading
+            <span class="plus">+</span>
+            <span class="minus">-</span>
+          </div>
+        <ul class="link-column-4">
+          <li>Link Heading</li>
+          <li>link 1</li>
+          <li>link 2</li>
+          <li>link 3</li>
+          <li>link 4</li>
+          <li>link 5</li>
+        </ul>
+      </label>
+      </div>
     </div>
-
-    <script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "links") {
-            x.className += " responsive";
-        } else {
-            x.className = "links";
-        }
-    }
-    </script>
-  </body>
-
+    <div class="social row-container">
+      <ul class="row-container">
+        <li>icons</li>
+        <li>Contact</li>
+        <li><span class="fa fa-twitter" aria-hidden="true"></span></li>
+        <li><span class="fa fa-facebook-square" aria-hidden="true"></span></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+</div>
+</body>
 </html>
